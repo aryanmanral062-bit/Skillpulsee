@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-slate-800 bg-[#F5F7FA];
+    /* Soft grid/gradient logic mapped below glass layers */
+    background: radial-gradient(circle at top center, #FFFFFF 0%, #F4F7FB 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
